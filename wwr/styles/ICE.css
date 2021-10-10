@@ -1,0 +1,86 @@
+body{
+    background-color:rgb(224, 146, 189);
+    text-align: center;
+}
+header{
+    background-color:rgb(224, 146, 189);
+    text-align: center;
+    font-size: 25px;
+    color: white;
+
+}
+
+.header{
+    font-size: 15px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.header1{
+    font-size: 15px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+
+footer{
+    
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bolder;
+    
+}
+
+ h1{
+    background-color: rgb(224, 146, 189);
+    font-size: 50px;
+    padding:10px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.p{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-weight: bolder
+}
+.list{
+    color:rgb(0, 0, 0);
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-weight: bolder;
+    padding: 80px;
+    border: 700px;
+    /* margin: 70; */
+    margin: 0 auto;
+    align-items: center;
+    
+}
+
+.quote{
+    color:white;
+    text-align: center;
+    font-family: Times;
+    font-weight: 700;
+    font-weight: bolder;
+    font-size: 50px;
+    
+    
+}
+
+img{
+   width: 175px;
+
+
+}
+#hello{
+    
+}
+/* alot med little */
+/* r    g   b */
+/* be  30  10 */

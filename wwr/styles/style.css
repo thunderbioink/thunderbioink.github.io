@@ -1,0 +1,23 @@
+body{
+    background-color:rgb(179, 245, 82);
+}
+
+section, h1{
+    background-color: rgb(127, 173, 241);
+    font-size: 25px;
+    padding:10px;
+}
+.latin{
+    color:rgb(44, 35, 170);
+    text-align: left;
+    padding: 25px;
+    border:10px solid black;
+    font-family: "ubuntu", sans-serif;
+}
+
+#hello{
+    
+}
+/* alot med little */
+/* r    g   b */
+/* be  30  10 */
