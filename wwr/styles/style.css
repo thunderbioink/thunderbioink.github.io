@@ -1,22 +1,15 @@
-body{
-    background-color:rgb(179, 245, 82);
+body {
+    background-color: #fcfbfb; 
+}
+header {
+    background-color:rgba(20,30,13, .7);
+}
+nav a:hover {
+    background-color: black;
 }
 
-section, h1{
-    background-color: rgb(127, 173, 241);
-    font-size: 25px;
-    padding:10px;
-}
-.latin{
-    color:rgb(44, 35, 170);
-    text-align: left;
-    padding: 25px;
-    border:10px solid black;
-    font-family: "ubuntu", sans-serif;
-}
-
-#hello{
-    
+#background {
+    height: 725px;
 }
 /* alot med little */
 /* r    g   b */
