@@ -1,0 +1,62 @@
+body{
+    background-color: lawngreen;
+    
+}
+h2{
+    font-size: 40px;
+}
+
+.about{
+    background-color: plum;
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 50%;
+    box-sizing: border-box;
+}
+
+.about h2{
+    color: purple;
+}
+.contact{
+    background-color: rgb(76, 43, 151);
+    border: solid 1px;
+    
+}
+.info{
+    background-color: rgb(194, 199, 219);
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    border-radius: 150px;
+
+}
+
+.info h2{
+    font-size: 25px;
+    padding-top: 44px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
+}
+
+main section{
+    border: dotted 1px black;
+}
+main section h1{
+    text-align: center;
+
+}
+
+.hello2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    border: dotted 1px black;
+}
+
+
+
+/* If you can't add specificity, add another ID */

@@ -1,15 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
 body {
-    background-color: #fcfbfb; 
+    background-color: #7678ED;
+    font-family: sans-serif;
+    
 }
 header {
-    background-color:rgba(20,30,13, .7);
+    background-color:#3D348B;
+    color: black;
+    font-family: 'Six Caps', sans-serif;
+    font-size: 70px;
 }
 nav a:hover {
-    background-color: black;
+    background-color: #e0c981;
+    text-align: center;
 }
+a {
+    color: black;
+  }
 
 #background {
     height: 725px;
+    background-color: #e0c981;
+    color: white;
+}
+
+content{
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+nav a{
+    text-align: center;
+    
+    color: #fcfbfb;
+    text-decoration: none;
+}
+#hero-msg h1, #hero-msg h4{
+    text-align: center;
+    font-family: 'Six Caps', sans-serif;
+    font-size: 50px;
+}
+.button-box{
+    text-align: center;
+    font-family: 'Six Caps', sans-serif;
+    font-size: 40px;
+}
+main section{
+    text-align: center;
+    font-family: 'Six Caps', sans-serif;
+    font-size: 30px;
+}
+
+.book, .join{
+    background-color: white;
+    
+}
+.book:hover, .join:hover{
+    background-color: #e0c981;
+}
+.msg{
+    background-color: #3D348B;
+    font-family: sans-serif;
+    font-weight: 50px;
+    color: white;
+}
+footer{
+    font-family: sans-serif;
+    font-size: 18px;
+
+}
+footer a:hover{
+  color: white;  
+}
+nav a{
+
+}
+nav a:hover{
+    background-color:#e0c981;
+    color: black;
+
+}
+.home-title{
+
+}
+h4{
+
+}
+.book, .join{
+
+}
+.book:hover, .join:hover{
+
+}
+.msg h2{
+
+}
+.msg p{
+
+}
+footer h3{
+
+}
+footer a{
+
+}
+
+icon{
+    width: 80px;
 }
 /* alot med little */
 /* r    g   b */
