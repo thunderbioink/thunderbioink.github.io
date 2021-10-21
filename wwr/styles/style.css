@@ -5,6 +5,7 @@ body {
     font-size: 22px;
     margin: 0;
     padding: 0;
+    letter-spacing: 2px;
 }
 
 h2{
@@ -18,10 +19,12 @@ h2{
     font-family:'Six Caps', sans-serif;
     font-size: 2em;
     margin-top: 10px;
+    letter-spacing: 2px;
 }
 .msg h2{
     font-family:'Six Caps', sans-serif;
     font-size: 70px;
+    letter-spacing: 2px;
 }
 
 #content{
@@ -42,6 +45,7 @@ header {
     color: black;
     font-family: 'Six Caps', sans-serif;
     font-size: 80px;
+    letter-spacing: 2px;
 }
 nav a:hover {
     background-color: #e0c981;
@@ -61,6 +65,7 @@ content{
     max-width: 1600px;
     margin: 0 auto;
     text-align: center;
+
     
 }
 nav a{
@@ -69,32 +74,37 @@ nav a{
     text-decoration: none;
     padding: 35px;
     text-decoration: none;
+    letter-spacing: 2px;
 
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
     font-family: 'Six Caps', sans-serif;
     font-size: 50px;
+    letter-spacing: 2px;
 }
 .button-box{
     text-align: center;
     font-family: 'Six Caps', sans-serif;
     font-size: 40px;
+    letter-spacing: 2px;
 }
 main section{
     text-align: center;
     font-family: 'Six Caps', sans-serif;
     font-size: 30px;
+    letter-spacing: 2px;
 }
 
 .join, .book{
     background-color: #3D348B;
     text-decoration: none;
     color:white;
-    font-size: 18px;
+    font-size: 45px;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    font-family: 'Six Caps';
 }
     
 .book:hover, .join:hover{
@@ -104,17 +114,22 @@ main section{
 .msg{
     background-color: #3D348B;
     font-family: sans-serif;
-    font-weight: 50px;
+    font-weight: lighter;
+    font-weight: bolder;
     color: white;
     line-height: 1.5em;
     padding: 35px;
+    letter-spacing: 2px;
 }
 
 footer{
-    font-family: sans-serif;
-    font-size: 18px;
+    
+    font-size: 30px;
     padding: 25px 50px;
     margin-top: 200px;
+    font-family: 'Six Caps';
+    letter-spacing: 2px;
+    letter-spacing: 2px;
 }
 footer a:hover{
   color: white;  
@@ -123,6 +138,7 @@ footer a:hover{
 nav a:hover{
     background-color:#e0c981;
     color: black;
+    text-decoration: underline;
 
 }
 
@@ -144,6 +160,7 @@ footer a:hover{
 .msg p{
     font-size: .8em;
     padding-bottom: 15px;
+    letter-spacing: 2px;
 }
 
 .river-card, .camping-card, .rapids-card{
