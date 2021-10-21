@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    color:black;
+}
+
+.white-box-content {
+    display:grid;
+    background-color:white;
+    margin: 120px 100px 120px 100px;
+    max-width: 1000px;
+    grid-template-columns: 1fr 3fr ;
+    grid-template-rows: 100px 75px 50px 50px 35px 40px;
+}
+
+#glasses{
+    grid-column: 1/3;
+    grid-row:6/6;
+    max-width: 100%;
+}
