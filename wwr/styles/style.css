@@ -7,12 +7,27 @@ body {
     padding: 0;
     letter-spacing: 2px;
 }
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+#hero{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;    
+}
+#hero-box{
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
 
 h2{
     margin: 0;
 }
 #logo_link{
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 
 .home-title{
@@ -46,10 +61,13 @@ header {
     font-family: 'Six Caps', sans-serif;
     font-size: 80px;
     letter-spacing: 2px;
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 nav a:hover {
     background-color: #e0c981;
     text-align: center;
+    text-decoration: underline;
 }
 a {
     color: black;
@@ -76,6 +94,9 @@ nav a{
     text-decoration: none;
     letter-spacing: 2px;
 
+}
+#hero-msg h4{
+    color: white;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
