@@ -32,8 +32,6 @@ Fonts are separated by a | */
 }
 
 
-/*  Look around below...but DON'T CHANGE ANYTHING! */
-
 body {
   max-width: 1200px;
   margin: 0 auto;
@@ -41,6 +39,7 @@ body {
   font-size: 18px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+  background-color:#bcb3c0;
 }
 img {
   display: block;
@@ -61,19 +60,7 @@ hr {
   margin: 35px 0;
   background: var(--accent1-color);
 }
-header {
-  padding: 1em;
-  text-align: center;
-  color: var(--paragraph-color-on-color);
-  background-color: var(--paragraph-background-color);
-  display: grid;
-  grid-template-columns: 150px 150px 150px 150px;
-}
-header > h1, header > h2 {
-  color: var(--headline-color-on-color);
-  display: grid;
-  grid-template-columns: 150px auto;
-}
+
 footer > h3 {
   padding: 1em;
   text-align: center;
@@ -132,7 +119,7 @@ nav {
   background-color: var(--nav-background-color);
   line-height: 3em;
   text-align: center;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 nav  {
   list-style-type: none;
@@ -154,91 +141,139 @@ nav a:hover {
   background-color: var(--nav-hover-background-color);
 }
 
-.sitemap {
-  display: grid;
-  justify-content: center;
 
-  /* grid-template-columns: repeat(6, 15%);
-  grid-template-rows: 3em 1.5em 1.5em 3em;
-  grid-template-areas: ". . home home . ."
-    ". . . top . ."
-    ". left left  middle middle right right ."
-    "page2 page2 . . page3 page3..page4 page4"; */
+
+
+@font-face {
+    font-weight: 400;
+    font-style:  normal;
+    font-family: 'Circular-Loom';
+  
+    src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Book-cd7d2bcec649b1243839a15d5eb8f0a3.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-weight: 500;
+    font-style:  normal;
+    font-family: 'Circular-Loom';
+  
+    src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Medium-d74eac43c78bd5852478998ce63dceb3.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-weight: 700;
+    font-style:  normal;
+    font-family: 'Circular-Loom';
+  
+    src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Bold-83b8ceaf77f49c7cffa44107561909e4.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-weight: 900;
+    font-style:  normal;
+    font-family: 'Circular-Loom';
+  
+    src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Black-bf067ecb8aa777ceb6df7d72226febca.woff2') format('woff2');
+  }
+/* SLIDESHOW CSS FOR PORTFOLIO PAGE */
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
 }
-.sitemap > div {
 
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
   text-align: center;
-
-}
-.sm-home {
-  grid-area: home;
-  background-color: #bcb3c0;
-  line-height: 3em;
-}
-.sm-page2 {
-  grid-area: page2;
-  background-color: #bcb3c0;
-  line-height: 3em;
-}
-.sm-page3 {
-  grid-area: page3;
-  background-color: #bcb3c0;
-  line-height: 3em;
-}
-.sm-page4 {
-  grid-area: page4;
-  background-color: #bcb3c0;
-  line-height: 3em;
 }
 
-.top {
-  grid-area: top;
-  border-left: 1px solid;
+/* Number text (1/... etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
 }
 
-.left {
-  grid-area: left;
-  border-top: 1px solid;
-  border-left: 1px solid;
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
 
-.right {
-  grid-area: right;
-  border-top: 1px solid;
-  border-right: 1px solid;
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
 
 
+/* ALLECAES/INDEX/HOME */
+/* id == # , class  = .abc */
+nav.index-home{
 
-@font-face {
-  font-weight: 400;
-  font-style:  normal;
-  font-family: 'Circular-Loom';
-
-  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Book-cd7d2bcec649b1243839a15d5eb8f0a3.woff2') format('woff2');
 }
-
-@font-face {
-  font-weight: 500;
-  font-style:  normal;
-  font-family: 'Circular-Loom';
-
-  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Medium-d74eac43c78bd5852478998ce63dceb3.woff2') format('woff2');
-}
-
-@font-face {
-  font-weight: 700;
-  font-style:  normal;
-  font-family: 'Circular-Loom';
-
-  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Bold-83b8ceaf77f49c7cffa44107561909e4.woff2') format('woff2');
-}
-
-@font-face {
-  font-weight: 900;
-  font-style:  normal;
-  font-family: 'Circular-Loom';
-
-  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Black-bf067ecb8aa777ceb6df7d72226febca.woff2') format('woff2');
-}
-
