@@ -66,13 +66,14 @@ header {
   text-align: center;
   color: var(--paragraph-color-on-color);
   background-color: var(--paragraph-background-color);
-  display: grid;
-  grid-template-columns: 150px 150px 150px 150px;
+  /* display: grid; */
+  /* grid-template-columns: 150px auto; */
 }
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
   display: grid;
   grid-template-columns: 150px auto;
+  text-align: center;
 }
 footer > h3 {
   padding: 1em;
@@ -158,12 +159,12 @@ nav a:hover {
   display: grid;
   justify-content: center;
 
-  /* grid-template-columns: repeat(6, 15%);
+  grid-template-columns: repeat(6, 15%);
   grid-template-rows: 3em 1.5em 1.5em 3em;
   grid-template-areas: ". . home home . ."
     ". . . top . ."
     ". left left  middle middle right right ."
-    "page2 page2 . . page3 page3..page4 page4"; */
+    "page2 page2 . . page3 page3..page4 page4";
 }
 .sitemap > div {
 
