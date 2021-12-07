@@ -1,3 +1,5 @@
+
+// object.addEventListener("load", myScript);
 var slideIndex = 1;
 showSlides(slideIndex);
 

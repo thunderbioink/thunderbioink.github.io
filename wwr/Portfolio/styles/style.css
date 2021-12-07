@@ -61,15 +61,24 @@ hr {
   background: var(--accent1-color);
 }
 
-footer > h3 {
+footer> h3 {
   padding: 1em;
-  text-align: center;
+  text-align: left;
   color: white;
-  background-color: var(--nav-background-color);
+  background-color: black;
   letter-spacing: 2px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+footer{
+  display: flex;
+  background-color: black;
+  align-items: center;
+}
+
+.social{
+  display: flex;
 }
 
 p {
@@ -180,7 +189,7 @@ nav a:hover {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 450px;
   position: relative;
   margin: auto;
 }
@@ -209,6 +218,10 @@ nav a:hover {
 /* Position the "next button" to the right */
 .next {
   right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev{
+  left: 0;
   border-radius: 3px 0 0 3px;
 }
 
@@ -274,6 +287,6 @@ nav a:hover {
 
 /* ALLECAES/INDEX/HOME */
 /* id == # , class  = .abc */
-nav.index-home{
-
+footer {
+  
 }
