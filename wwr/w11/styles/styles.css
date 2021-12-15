@@ -1,0 +1,38 @@
+.block-1{
+    background: rgb(176, 176, 248);
+    width: 50%;
+    margin-right: auto;
+    padding:5px;
+}
+
+.block-2 {
+    background: rgb(203, 243, 162);
+    width: 50%;
+    margin:0 auto;
+    padding:5px;
+}
+
+.block-3{
+    background: rgb(248, 191, 191);
+    width: 50%;
+    margin-left:auto;
+    padding:5px; 
+}
+
+.block-4{
+    background: rgb(247, 247, 170);
+    width: 50%;
+    margin: 0auto;
+    padding:5px;
+    margin-left: 200px; 
+}
+
+h1, #left-1, #left-2, #left-3, #left-4{
+    text-align: left;
+}
+#middle-1, #middle-2, #middle-3, #middle-4{
+    text-align: center;
+}
+#right-1, #right-2, #right-3, #right-4{
+    text-align: right;
+}
