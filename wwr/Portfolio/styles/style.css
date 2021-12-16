@@ -291,6 +291,7 @@ position: relative;
 margin: auto;
 right: 375px;
 grid-template-columns: 1/3;
+z-index:0;
 
 }
 
@@ -332,18 +333,26 @@ background-color: rgba(0,0,0,0.8);
 
 /* Caption text */
 .text {
-font-size: 15px;
-padding: 25px 25px;
-align-items: flex-end;
-color: black;
-bottom: 50px;
-border: 5em;
-margin: 35px 35px 35px 35px;
-width: 100%;
-text-align: right;
-left: 375px;
-grid-template-columns: 2/3;
-top: 0;
+  color: black;
+  font-size: 10px;
+  padding: 90px 90px;
+  margin:40em;
+  left: 80px;
+  position:absolute;
+  bottom: -500px;
+  width: 100%;
+  text-align: right;
+  z-index:1;
+  background:#bcb3c0;
+}
+.portfolio-back{
+  margin-top: .01em;
+  margin-bottom: .01em;
+  /* padding: 100px; */
+  background-image: url("/wwr/Portfolio/images/puebla_blue.JPG");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
 }
 
 /* Number text (1/... etc) */
