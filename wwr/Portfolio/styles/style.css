@@ -332,13 +332,17 @@ background-color: rgba(0,0,0,0.8);
 
 /* Caption text */
 .text {
-color: #f2f2f2;
 font-size: 15px;
-padding: 8px 12px;
-position: absolute;
-bottom: 8px;
+padding: 25px 25px;
+align-items: flex-end;
+color: black;
+bottom: 50px;
+border: 5em;
+margin: 35px 35px 35px 35px;
 width: 100%;
-text-align: center;
+text-align: right;
+left: 375px;
+grid-template-columns: 2/3;
 }
 
 /* Number text (1/... etc) */
@@ -359,7 +363,7 @@ margin: 0 2px;
 background-color: #bbb;
 border-radius: 50%;
 display: inline-block;
-transition: background-color 0.6s ease;
+transition: background-color 0.3s ease;
 }
 
 .active, .dot:hover {
