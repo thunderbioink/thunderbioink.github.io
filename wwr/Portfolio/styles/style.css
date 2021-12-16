@@ -345,6 +345,7 @@ background-color: rgba(0,0,0,0.8);
   z-index:1;
   background:#bcb3c0;
 }
+/* OPEN PORTFOLIO BACKGROUND CSS */
 .portfolio-back{
   margin-top: .01em;
   margin-bottom: .01em;
@@ -354,6 +355,54 @@ background-color: rgba(0,0,0,0.8);
   background-attachment: fixed;
   background-size: 100%;
 }
+/* OPEN ABOUT & CONTACT CSS */
+
+/* ABOUT PAGE */
+#about-back{
+  margin-top: .01em;
+  margin-bottom: .01em;
+  /* padding: 100px; */
+  background-image: url("/wwr/Portfolio/images/duet_2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+/* CONTACT PAGE */
+#contact-back{
+  margin-top: .01em;
+  margin-bottom: .01em;
+  /* padding: 100px; */
+  background-image: url("/wwr/Portfolio/images/angel_brown.PNG");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+/* Add a background color and some padding around the form */
+
+.social-contact{
+
+  margin-top: 5em;
+  margin-bottom: 5em;
+  width: auto;
+  /* background: #bcb3c0;  */
+  padding: 50px;
+  margin: 20px;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  align-items: center;
+}
+.social-contact> h1, a{
+  color:black;
+  
+}
+
+/* STOP HERE */
+
 
 /* Number text (1/... etc) */
 .numbertext {
