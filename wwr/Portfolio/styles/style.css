@@ -343,6 +343,7 @@ width: 100%;
 text-align: right;
 left: 375px;
 grid-template-columns: 2/3;
+top: 0;
 }
 
 /* Number text (1/... etc) */
